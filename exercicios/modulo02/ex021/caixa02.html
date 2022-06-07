@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+            margin: 0px;
+        }
+
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        nav{
+            background-color: rgb(194, 194, 194);
+            padding: 3px;
+            border-radius: 5px;
+            box-shadow: 2px 2px 3px 0px rgba(100, 100, 100, 0.842);
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: rgb(247, 247, 247);
+            font-weight: bold;
+            margin-right: 30px;
+        }
+
+        nav > a:hover{
+            text-decoration: underline;
+            color: rgb(78, 78, 78);
+        }
+
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 2px 2px 2px 1px rgb(70, 70, 70);
+            border-radius: 10px;
+        }
+
+        #primeiro{
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+        #ultimo{
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+        }
+
+        article{
+            background-color: rgba(211, 211, 211, 0.849);
+            padding: 1px 1px 1px 5px;
+        }
+
+        article > aside{
+            background-color: rgba(156, 156, 156, 0.685);
+        }
+
+        p{
+            text-indent: 5px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+            padding: 4px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+            <a href="">link</a>
+        </nav>
+
+    </header>
+
+    <main>
+        <section>
+            <p>Esportes Política Tecnologia</p>
+        </section>
+        <section id="assuntos">
+            <article id="primeiro">
+
+                <h2>Esportes</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nostrum quod quidem veniam, dolorem assumenda dignissimos illo commodi ab eos explicabo eveniet aliquam sequi dolorum accusamus debitis culpa amet consequuntur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci quae doloremque ratione maxime vitae ab, a quo, iure, quam sit pariatur. Sint vero fuga totam aspernatur voluptatem ullam soluta doloribus!</p>
+
+            </article>
+            <article>
+
+                <h2>Tecnologia</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde dolorem cum quaerat cumque commodi expedita nesciunt? Aliquid recusandae minima assumenda facilis fuga atque ipsam quod incidunt quidem excepturi. Consequuntur, perferendis?</p>
+
+            </article>
+        </section>
+
+        <section id="noticias">
+            <article>
+
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia iure, culpa ipsam in aperiam deleniti! Commodi ipsam quod aliquam. Nemo necessitatibus, sint aut beatae quia architecto doloribus incidunt aliquid sunt. Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae, mollitia, ipsa velit itaque optio laboriosam esse quasi necessitatibus provident voluptas quis veniam eius amet tempora, dolorem cumque. Architecto, sit consectetur?</p>
+
+                <aside>
+
+                    <p>Artigo escrito por José da Silva</p>
+
+                </aside>
+
+            </article>
+
+            <article id="ultimo">
+
+                <h2>Asnera</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt provident, vel impedit saepe cumque eum non eaque. Modi nobis nemo provident cumque sed voluptates voluptas velit ullam ex? Dolor, sapiente!</p>
+
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Victor Ashino</p>
+    </footer>
+
+</body>
+</html>
